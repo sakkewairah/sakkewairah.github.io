@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(59, 68, 194, 0.973);
+    color: White;
+  }
+  h1 {
+    border: 5px soli rgb(63, 194, 63);
+
+  }
+  p {
+    border-radius: 30px;
+  background: #465788;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+  }
+  
