@@ -1,0 +1,27 @@
+#header {
+    background-color:black;
+color:rgba(6, 51, 177, 0.979);
+text-align:center;
+padding:5px;
+}  
+#nav {
+line-height:20px;
+background-color:#031b20a2;
+height:300px;
+width:100px;
+float:left;
+padding:5px;
+}
+#section {
+width:250px;
+float:left;
+padding:15px;	 	 
+}
+body {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}  
+#topnav:hover {
+background-color: red;
+}
