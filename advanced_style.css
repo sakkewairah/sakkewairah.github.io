@@ -17,7 +17,8 @@
     color: Black;
   }
   a:hover {
-    color: red;  width: 10px;
+    color: red;  
+      width: 10px;
   background: black;
   transition: width 2s;
     }
