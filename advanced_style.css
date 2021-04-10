@@ -1,0 +1,30 @@
+#Firstbox {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+  h1,h2 {
+    text-shadow: 2px 2px #14e726;
+  }
+ #Secondbox {
+    border: 2px solid black;
+    padding: 45px;
+    background: url(cinqueterre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a:link {
+    color: Black;
+  }
+  a:hover {
+    color: red;  
+      width: 10px;
+  background: black;
+  transition: width 2s;
+    }
+  @media screen and (max-width: 700px) {
+body {
+background-color: black;
+    color: white;
+}
+ }
