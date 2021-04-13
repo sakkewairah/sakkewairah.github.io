@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+     <!--Ion Icons-->
+     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+     <!--Google Fonts-->
+     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+     <!--Our own stylesheet-->
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <img src="png/logo.png" alt="logo">
+            
+                    </a>
+                </div>
+                <div class="menu-icons open">
+                    <i class="icon ion-md-menu"></i>
+                </div>
+                <ul class="nav-list">
+                    <div class="menu-icons close">
+                        <i class="icon ion-md-close"></i>
+                    </div>
+                   <li class="nav-item">
+                       <a href="index.html" class="nav-link">Home</a>
+                   </li> 
+                   <li class="nav-item">
+                    <a href="about me.html" class="nav-link">About me</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="hobbies.html" class="nav-link">Hobbies</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link current">Contact</a>
+                </li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact me</h2>
+              <p>You can send me feedback.</p>
+            </div>
+            <div class="row">
+              <div class="column">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">Etunimi</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Sukunimi</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Maa</label>
+                  <select id="country" name="country">
+                    <option value="suomi">Suomi</option>
+                    <option value="ruotsi">Ruotsi</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Aihe</label>
+                  <textarea id="subject" name="subject" placeholder="kirjoita .." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+    </header>
+    <footer>
+        <p>&copy;2021 new website. All rights reserved.</p>
+        <address>
+            Contact <a href="21016855@laurea.fi">Me</a>
+        </address>
+    </footer>
+    
+    <script type="javascript" src="script.js"></script>
+</body>
+</html>
